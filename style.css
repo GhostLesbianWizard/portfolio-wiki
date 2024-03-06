@@ -156,3 +156,41 @@ nav button {
   cursor: pointer;
   font-family: inherit;
 }
+/* Light Mode */
+.lightMode {
+  background: linear-gradient(#868686, #802323) no-repeat;
+  color: black;
+}
+.lightMode header {
+
+  background-color: rgb(150, 150, 150);
+  color: black;
+}
+.lightMode div {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.lightMode div h2 {
+  color: rgba(0, 0, 0, 0.75);
+}
+.lightMode nav ul li {
+  background-color: rgb(175, 175, 175);
+}
+.lightMode nav li:hover {
+  background-color: lightgray;
+}
+.lightMode footer {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-top: 5px solid white; 
+}
+.lightMode .dropdown li {
+  background-color: lightgray;
+}
+.lightMode .dropdown li:hover {
+  background-color: rgb(170, 170, 170);
+}
+.lightMode .prev:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.lightMode .data-even {
+  background-color:rgba(255, 255, 255, 0.5)
+}
